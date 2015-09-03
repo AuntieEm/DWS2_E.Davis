@@ -8,7 +8,7 @@ medium brown    #734E39
 dark brown  #260801
 */
 
-
+/*
 body{
     font: 100%/1.5 "Helvetica Neue", Arial, Helvetica;
     max-width: 960px;
@@ -25,6 +25,7 @@ body{
     overflow: hidden;
     background: #EBEDF2;
     padding-right: 1%;
+    margin-top: 1em;
 }
 
 section {
@@ -39,7 +40,14 @@ section {
     padding-left: 5%;
 }
 #side_nav li{
-    padding-bottom: 10%;
+    padding: 5%;
+
+}
+#side_nav li:nth-child(odd){
+    background: #EBEDF2;
+}
+#side_nav li:nth-child(even){
+    background: #9FBFD4;
 }
 
 h1 {
@@ -61,7 +69,7 @@ nav {
     display: inline;
 }
 
-#current-page {
+a[id] {
     color: #598391;
 }
 
@@ -70,7 +78,6 @@ a {
     color: #734E39;
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: bold;
 }
 
 a:hover {
@@ -78,11 +85,34 @@ a:hover {
     font-size: 1.2em;
 }
 
+h2{
+    text-align: center;
+    color: #598391;
+    font-size: 2em;
+    border-bottom: 1px dashed #D9CDB8;
+}
+
+span:first-child{
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #598391;
+}
+
+li > a {
+    font-weight: bold;
+}
+
+h2 + p {
+    margin-top: .6em;
+    font-style: bold;
+}
+
 footer {
     color: #EBEDF2;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 1em;
+    padding-bottom: 1em;
     background-color: #260801;
     font-size: 12px;
     clear: both;
 }
+*/
