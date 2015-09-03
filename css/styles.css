@@ -8,7 +8,7 @@ medium brown    #734E39
 dark brown  #260801
 */
 
-
+/********** MAIN STYLES **********/
 body{
     font: 100%/1.5 "Helvetica Neue", Arial, Helvetica;
     max-width: 960px;
@@ -18,18 +18,22 @@ body{
     background-color: #EBEDF2;
 
 }
-
-#mission_statement {
-    width: 60%;
-    margin: 0 auto;
-    overflow: hidden;
-    background: #EBEDF2;
-    margin-top: 1em;
+h1 {
+    color: #598391;
 }
 
-section {
-    float: right;
-    text-align: left;
+h1, p {
+    padding: 0 1.5625%;
+}
+/********** NAVIGATION **********/
+nav {
+    border-top: 1px dashed #D9CDB8;
+    border-bottom: 1px dashed #D9CDB8;
+    margin: 0 auto;
+}
+#top_nav li {
+    padding: 0 1.5625% 0 1.5625%;
+    display: inline;
 }
 
 #side_nav {
@@ -50,40 +54,36 @@ section {
 #side_nav li:nth-child(even){
     background: #9FBFD4;
 }
-
-h1 {
-    color: #598391;
+/***** Child Selector *****/
+li > a {
+    font-weight: bold;
 }
-
-h1, p {
-    padding: 0 1.5625%;
-}
-
-nav {
-    border-top: 1px dashed #D9CDB8;
-    border-bottom: 1px dashed #D9CDB8;
-    margin: 0 auto;
-}
-
-#top_nav li {
-    padding: 0 1.5625% 0 1.5625%;
-    display: inline;
-}
-
+/***** Attribute Selector *****/
 a[id] {
     color: #598391;
 }
-
-
 a {
     color: #734E39;
     text-decoration: none;
     text-transform: uppercase;
 }
-
 a:hover {
     color: #260801;
     font-size: 1.2em;
+}
+
+/********** Body **********/
+#mission_statement {
+    width: 60%;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #EBEDF2;
+    margin-top: 1em;
+}
+
+section {
+    float: right;
+    text-align: left;
 }
 
 h2{
@@ -93,21 +93,23 @@ h2{
     border-bottom: 1px dashed #D9CDB8;
 }
 
-span:first-child{
-    font-size: 1.3em;
-    font-weight: bold;
-    color: #598391;
-}
-
-li > a {
-    font-weight: bold;
-}
-
+/***** Adjacent Selector *****/
 h2 + p {
     margin-top: .6em;
     font-style: bold;
 }
 
+/***** Structural Pseudo-Class Selector *****/
+span:first-child {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #598391;
+}
+#hedgehog_container img {
+    max-width: 100%;
+}
+
+/***** Footer *****/
 footer {
     color: #EBEDF2;
     padding-top: 1em;
@@ -115,14 +117,6 @@ footer {
     background-color: #260801;
     font-size: .75em;
     clear: both;
-}
-
-#hedgehog_container {
-    width: 50%;
-    float: left;
-}
-#hedgehog_container img {
-    max-width: 100%;
 }
 
 /****** Media Queries *****/
