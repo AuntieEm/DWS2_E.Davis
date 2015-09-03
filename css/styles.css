@@ -1,0 +1,106 @@
+/****** colors *****/
+/*
+Light grey  #EBEDF2
+light blue  #9FBFD4
+dark blue   #598391
+light brown #D9CDB8
+medium brown    #734E39
+dark brown  #260801
+*/
+
+body{
+    font: 100%/1.5 "Helvetica Neue", Arial, Helvetica;
+    max-width: 960px;
+    margin: 36px auto;
+    text-align: center;
+    display: inline;
+    background: url("../images/Cute-Baby-Hedgehog.jpg") fixed;
+}
+header{
+
+}
+
+#mission_statement {
+    width: 75%
+    margin: 0 auto;
+    overflow: hidden;
+    background: #EBEDF2;
+    /*border: 1px dashed #424242;*/
+}
+
+section {
+    float: right;
+    text-align: left;
+}
+
+#side_nav {
+    float: left;
+    width: 25%;
+    text-align: left;
+}
+#side_nav li{
+    padding-bottom: 10%;
+}
+
+h1 {
+    color: #598391;
+}
+
+h1, p {
+    padding: 0 15px;
+}
+
+nav {
+    border-top: 1px dashed #dddddd;
+    border-bottom: 1px dashed #dddddd;
+    margin: 0 auto;
+}
+
+#top_nav li {
+    padding: 0 15px 0 15px;
+    display: inline;
+}
+
+#current-page {
+    color: #d93600;
+}
+
+
+a {
+    color: #dddddd;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #d93600;
+    font-size: 1.2em;
+}
+
+
+
+/*
+body {
+	width: 100%;
+	margin: 0;
+	font: 16px / 1.5 "Open Sans", sans-serif;
+	color: #666;
+	text-align: center;
+	display: inline;
+}
+
+header {
+
+	height: 754px;
+	padding-top: 30px;
+	background: url("../images/homebackground.jpg") fixed;
+}
+
+h1 {
+	/*width: 219px;
+	height: 62px;
+	background: url("../images/logo.png");*/
+/*margin: auto;
+font-size: 1.5em;
+*/
