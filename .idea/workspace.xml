@@ -31,8 +31,8 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.7464788" vertical-offset="0" max-vertical-offset="1845">
-              <caret line="117" column="2" selection-start-line="117" selection-start-column="2" selection-end-line="117" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.3761062" vertical-offset="0" max-vertical-offset="2310">
+              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -41,8 +41,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.0" vertical-offset="435" max-vertical-offset="1065">
-              <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
+            <state vertical-scroll-proportion="-8.75" vertical-offset="465" max-vertical-offset="1095">
+              <caret line="45" column="86" selection-start-line="45" selection-start-column="86" selection-end-line="45" selection-end-column="86" />
               <folding />
             </state>
           </provider>
@@ -69,8 +69,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="636" />
-    <option name="height" value="823" />
+    <option name="width" value="1175" />
+    <option name="height" value="824" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -194,7 +194,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="636" height="823" extended-state="0" />
+    <frame x="0" y="23" width="1175" height="824" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -280,16 +280,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.0" vertical-offset="435" max-vertical-offset="1065">
-          <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
+        <state vertical-scroll-proportion="-8.75" vertical-offset="465" max-vertical-offset="1095">
+          <caret line="45" column="86" selection-start-line="45" selection-start-column="86" selection-end-line="45" selection-end-column="86" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.7464788" vertical-offset="0" max-vertical-offset="1845">
-          <caret line="117" column="2" selection-start-line="117" selection-start-column="2" selection-end-line="117" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.3761062" vertical-offset="0" max-vertical-offset="2310">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
           <folding />
         </state>
       </provider>

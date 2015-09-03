@@ -8,15 +8,15 @@ medium brown    #734E39
 dark brown  #260801
 */
 
-/*
+
 body{
     font: 100%/1.5 "Helvetica Neue", Arial, Helvetica;
     max-width: 960px;
-    margin: 36px auto;
+    margin: 3.75% auto;
     text-align: center;
     display: inline;
     background-color: #EBEDF2;
-    background: url("../images/Cute-Baby-Hedgehog.jpg") center no-repeat;
+
 }
 
 #mission_statement {
@@ -24,7 +24,6 @@ body{
     margin: 0 auto;
     overflow: hidden;
     background: #EBEDF2;
-    padding-right: 1%;
     margin-top: 1em;
 }
 
@@ -37,12 +36,14 @@ section {
     float: left;
     width: 20%;
     text-align: left;
-    padding-left: 5%;
-}
-#side_nav li{
-    padding: 5%;
+    text-size: .75em;
 
 }
+#side_nav li{
+
+    list-style-type: none;
+}
+/***** nth Child Selectors *****/
 #side_nav li:nth-child(odd){
     background: #EBEDF2;
 }
@@ -112,7 +113,37 @@ footer {
     padding-top: 1em;
     padding-bottom: 1em;
     background-color: #260801;
-    font-size: 12px;
+    font-size: .75em;
     clear: both;
 }
-*/
+
+#hedgehog_container {
+    width: 50%;
+    float: left;
+}
+#hedgehog_container img {
+    max-width: 100%;
+}
+
+/****** Media Queries *****/
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media screen and (min-width: 768px) and (max-width: 959px) {
+    section {
+        background-color: red;
+    }
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    section {
+        background-color: blue;
+    }
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+    section {background-color: green;}
+    img {display: none;}
+    #side_nav {display: none;}
+}
