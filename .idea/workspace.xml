@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b94d5df-dd5c-4a83-9278-e97be9f7418e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week 2/services.html" afterPath="$PROJECT_DIR$/Week 2/services.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week 2/testimonials.html" afterPath="$PROJECT_DIR$/Week 2/testimonials.html" />
     </list>
     <ignored path="DWS2_E.Davis.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,31 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Week 2/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.625" vertical-offset="486" max-vertical-offset="1290">
+            <state vertical-scroll-proportion="0.4266055" vertical-offset="486" max-vertical-offset="1290">
               <caret line="51" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="80" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="services.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Week 2/services.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.61926603" vertical-offset="495" max-vertical-offset="1335">
-              <caret line="60" column="48" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="discounts and programs.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week 2/discounts and programs.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.5" vertical-offset="576" max-vertical-offset="1335">
-              <caret line="60" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="83" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -81,7 +61,6 @@
         <option value="$PROJECT_DIR$/css/styles.css" />
         <option value="$PROJECT_DIR$/css/home.html" />
         <option value="$PROJECT_DIR$/Week 2/announcements.html" />
-        <option value="$PROJECT_DIR$/Week 2/testimonials.html" />
         <option value="$PROJECT_DIR$/Week 2/css/custom.css" />
         <option value="$PROJECT_DIR$/Week 2/home.html" />
         <option value="$PROJECT_DIR$/Week 2/calendar.html" />
@@ -92,6 +71,7 @@
         <option value="$PROJECT_DIR$/Week 2/policies.html" />
         <option value="$PROJECT_DIR$/Week 2/Rates.html" />
         <option value="$PROJECT_DIR$/Week 2/services.html" />
+        <option value="$PROJECT_DIR$/Week 2/testimonials.html" />
       </list>
     </option>
   </component>
@@ -314,14 +294,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week 2/testimonials.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="658">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week 2/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
@@ -342,14 +314,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.47247708" vertical-offset="396" max-vertical-offset="1305">
           <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week 2/extra services and fees.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75688076" vertical-offset="405" max-vertical-offset="1335">
-          <caret line="60" column="56" selection-start-line="60" selection-start-column="56" selection-end-line="60" selection-end-column="56" />
           <folding />
         </state>
       </provider>
@@ -378,14 +342,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week 2/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.625" vertical-offset="486" max-vertical-offset="1290">
-          <caret line="51" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="80" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week 2/discounts and programs.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.5" vertical-offset="576" max-vertical-offset="1335">
@@ -396,8 +352,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Week 2/services.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61926603" vertical-offset="495" max-vertical-offset="1335">
-          <caret line="60" column="48" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.6880734" vertical-offset="495" max-vertical-offset="1335">
+          <caret line="63" column="2" selection-start-line="63" selection-start-column="2" selection-end-line="63" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 2/testimonials.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2522936" vertical-offset="465" max-vertical-offset="1320">
+          <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 2/extra services and fees.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.75688076" vertical-offset="405" max-vertical-offset="1335">
+          <caret line="60" column="56" selection-start-line="60" selection-start-column="56" selection-end-line="60" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 2/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4266055" vertical-offset="486" max-vertical-offset="1290">
+          <caret line="51" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="80" selection-end-column="7" />
           <folding />
         </state>
       </provider>
