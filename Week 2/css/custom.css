@@ -2,5 +2,23 @@ body {
     padding-top: 70px;
 }
 
-.pull-right.img-responsive{
+.pull-left.img-responsive {
     margin: 0 0 1em 1em;
+}
+
+
+.btn-info{
+    background-color: #cdae51;
+    border-color: #3f2b22;
+    color: #fff;
+}
+
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active,
+.btn-info.active,
+.open .dropdown-toggle.btn-info {
+    color: #ffffff;
+    background-color: #3F2B22;
+    border-color: #333;
+}
