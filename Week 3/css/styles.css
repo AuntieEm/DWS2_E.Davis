@@ -1,0 +1,116 @@
+/* Table of Contents
+––––––––––––––––––––––––––––––––––––––––––––––
+- General Content
+- Typography
+- Header & Navigation
+- Images & Media
+- Footer
+- Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* General Content
+–––––––––––––––––––––––––––––––––––––––––––––– */
+.main{padding-top:3%;}
+.row{padding: 2% 0;}
+.blue{background-color:#D9CDB8;}
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––– */
+body{
+	font-family: 'Roboto Condensed',sans-serif;
+	font-size: 1.5em;
+	color: #260801;
+}
+h1{
+	font-family: 'Alice', cursive;
+	margin-left: 5%;
+}
+h2{
+	font-family: 'Alice', cursive;
+	font-size: 3em;
+	margin: 0.67em;
+}
+h2.bio{color:#734E39;}
+
+.logo h4{
+	color: #260801;
+}
+
+p.bio{color: #260801;}
+
+
+/* Header & Navigation
+–––––––––––––––––––––––––––––––––––––––––––––– */
+header.main_nav{
+	padding: 1% 0;
+	display: block;
+}
+
+.logo {
+	margin:  5% auto;
+	text-align: right;
+}
+
+.logo a{
+	font-size: 3em;
+	color: #598391;
+	text-decoration: none;
+	padding: 2px 10px 0 10px;
+	margin: 0;
+}
+
+.logo a:hover{
+	color: #EBEDF2;
+	cursor: pointer;
+}
+
+/* __________ Side Navigation __________ */
+
+.top_nav .home,.rates,.calendar,.reservations,.photo{
+	display: inline;
+	font-size: 1.2em;
+}
+.top_nav {
+	padding: 10% auto;
+	margin: 10% auto;
+	text-align: center;	
+}
+
+.top_nav ul a{
+	list-style: none;
+	color: #260801;
+	text-decoration: none;
+}
+
+.home,.rates,.calendar,.reservations,.photo{
+	margin: 2%;
+	padding: 2%;
+}
+
+.active{
+	background-color: #EBEDF2;
+	border-radius: 5px;
+	color: #598391;
+}
+
+/* __________ Side Navigation __________ */
+
+.side_nav ul a{
+	text-decoration: none;
+		color: #EBEDF2;
+}
+
+.side_nav .our_services, .vacation, .overnight, .house, .other, .policies{
+	list-style: none;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.side_nav .our_services{
+	color: #260801;
+}
+
+button{
+	background-color: #598391;
+}
+
