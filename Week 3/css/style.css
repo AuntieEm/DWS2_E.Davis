@@ -12,22 +12,22 @@
 –––––––––––––––––––––––––––––––––––––––––––––– */
 .main{padding-top:3%;}
 .row{padding: 2% 0;}
-.green{background-color:#7accc8;}
+.blue{background-color:#D9CDB8;}
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––– */
 body{
-	font-family: 'Abel',sans-serif;
+	font-family: 'Alice',sans-serif;
 	font-size: 1.5em;
-	color: #000;
+	color: #260801;
 }
 h2{
-	font-family: 'Satisfy', cursive;
+	font-family: 'Roboto', cursive;
 	font-size: 3em;
 	margin: 0.67em;
 }
-h2.bio{color:#3f7f7c;}
-p.bio{color: #fff;}
+h2.bio{color:#734E39;}
+p.bio{color: #260801;}
 
 /* Header & Navigation
 –––––––––––––––––––––––––––––––––––––––––––––– */
@@ -35,22 +35,20 @@ header.main_nav{
 	padding: 1% 0;
 	display: block;
 }
-.logo{
+.name{
 	margin: 5% auto;
 	text-align: center;
 }
-.logo a{
+.name a{
 	font-size: 3em;
-	color: #fff;
+	color: #598391;
 	text-decoration: none;
-	border: 3px solid #fff;
-	text-transform: uppercase;
 	padding: 2px 10px 0 10px;
 	margin: 0;
 }
-.logo a:hover{
-	background-color: #fff;
-	color: #7accc8;
+.name a:hover{
+	color: #EBEDF2;
+	cursor: pointer;
 }
 /* Images & Media
 –––––––––––––––––––––––––––––––––––––––––––––– */
