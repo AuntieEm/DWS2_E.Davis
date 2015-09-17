@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b94d5df-dd5c-4a83-9278-e97be9f7418e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week 2/Rates.html" afterPath="$PROJECT_DIR$/Week 2/Rates.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week 2/areas.html" afterPath="$PROJECT_DIR$/Week 2/areas.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week 2/calendar.html" afterPath="$PROJECT_DIR$/Week 2/calendar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week 2/contact.html" afterPath="$PROJECT_DIR$/Week 2/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week 2/css/custom.css" afterPath="$PROJECT_DIR$/Week 2/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week 2/discounts and programs.html" afterPath="$PROJECT_DIR$/Week 2/discounts and programs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week 2/extra services and fees.html" afterPath="$PROJECT_DIR$/Week 2/extra services and fees.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week 2/home.html" afterPath="$PROJECT_DIR$/Week 2/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week 2/photo gallery.html" afterPath="$PROJECT_DIR$/Week 2/photo gallery.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week 2/policies.html" afterPath="$PROJECT_DIR$/Week 2/policies.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week 2/services.html" afterPath="$PROJECT_DIR$/Week 2/services.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week 2/testimonials.html" afterPath="$PROJECT_DIR$/Week 2/testimonials.html" />
-    </list>
+    <list default="true" id="2b94d5df-dd5c-4a83-9278-e97be9f7418e" name="Default" comment="" />
     <ignored path="DWS2_E.Davis.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,7 +47,7 @@
       <file leaf-file-name="photo gallery.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Week 2/photo gallery.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.004732" vertical-offset="0" max-vertical-offset="2280">
+            <state vertical-scroll-proportion="3.0142405" vertical-offset="0" max-vertical-offset="2280">
               <caret line="127" column="18" selection-start-line="127" selection-start-column="18" selection-end-line="127" selection-end-column="18" />
               <folding />
             </state>
@@ -112,7 +99,7 @@
     <option name="x" value="7" />
     <option name="y" value="23" />
     <option name="width" value="680" />
-    <option name="height" value="824" />
+    <option name="height" value="822" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -265,7 +252,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="7" y="23" width="680" height="824" extended-state="0" />
+    <frame x="7" y="23" width="680" height="822" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -491,7 +478,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Week 2/photo gallery.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.004732" vertical-offset="0" max-vertical-offset="2280">
+        <state vertical-scroll-proportion="3.0142405" vertical-offset="0" max-vertical-offset="2280">
           <caret line="127" column="18" selection-start-line="127" selection-start-column="18" selection-end-line="127" selection-end-column="18" />
           <folding />
         </state>
