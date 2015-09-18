@@ -117,10 +117,31 @@ header.main_nav{
 }
 
 /* __________ Side Navigation __________ */
+.side-nav ul {
+    list-style: none;
+    margin: 1.5em;
+
+}
+.side-nav  ul li a {
+    text-decoration: none;
+    border-bottom: 1px dashed;
+    color: #EBEDF2;
+    background-color: #598391;
+    border-radius: 5px;
+    padding: 5%;
+    margin: 1.5em auto;
+    max-width: 100%;
+
+
+}
+.side-nav ul li a:hover {
+    background-color: #260801;
+}
 
 
 /* Images and Media
 –––––––––––––––––––––––––––––––––––––––––––––– */
+img{max-width: 100%;}
 
 /* Footer
 –––––––––––––––––––––––––––––––––––––––––––––– */
@@ -150,6 +171,30 @@ p.copyright{
 	color: #598391;
 	font-size: 1em;
 }
+/* Utility Classes
+–––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Make element full width */
+.u-full-width {
+  width: 100%;
+  box-sizing: border-box; }
+
+/* Make sure elements don't run outside containers (great for images in columns) */
+.u-max-full-width {
+  max-width: 100%;
+  box-sizing: border-box; }
+
+/* Float either direction */
+.u-pull-right {
+  float: right; }
+.u-pull-left {
+  float: left; }
+
+/* Clear a float */
+.u-cf {
+  content: "";
+  display: table;
+  clear: both; }
 
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––– */
