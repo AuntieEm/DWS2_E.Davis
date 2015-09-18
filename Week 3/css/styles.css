@@ -14,6 +14,9 @@
 .row{padding: 2% 0;}
 .blue{background-color:#D9CDB8;}
 
+
+
+
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––– */
 body{
@@ -30,13 +33,29 @@ h2{
 	font-size: 3em;
 	margin: 0.67em;
 }
-h2.bio{color:#734E39;}
+
 
 .logo h4{
 	color: #260801;
 }
 
-p.bio{color: #260801;}
+table{
+	max-width: 100%;
+}
+
+tbody {
+	text-align: center;
+	font-size: 1em;
+}
+.calendar button{
+	font-size: .8em;
+	color: #EBEDF2;
+	background-color: #598391;
+	text-align: center;
+}
+
+
+
 
 
 /* Header & Navigation
@@ -44,6 +63,7 @@ p.bio{color: #260801;}
 header.main_nav{
 	padding: 1% 0;
 	display: block;
+	max-width: 100%;
 }
 
 .logo {
@@ -64,22 +84,25 @@ header.main_nav{
 	cursor: pointer;
 }
 
-/* __________ Side Navigation __________ */
+/* __________ Top Navigation __________ */
 
 .top_nav .home,.rates,.calendar,.reservations,.photo, .contact{
 	display: inline;
 	font-size: 1.2em;
+	
 }
 .top_nav {
 	padding: 10% auto;
 	margin: 10% auto;
 	text-align: center;	
+	
 }
 
 .top_nav ul a{
 	list-style: none;
 	color: #260801;
 	text-decoration: none;
+	
 }
 
 .home,.rates,.calendar,.reservations,.photo, .contact{
@@ -95,27 +118,6 @@ header.main_nav{
 
 /* __________ Side Navigation __________ */
 
-.side_nav ul a{
-	text-decoration: none;
-		color: #EBEDF2;
-}
-
-.side_nav .our_services, .vacation, .overnight, .house, .other, .policies{
-	list-style: none;
-	margin: 0 auto;
-	text-align: left;
-}
-
-.side_nav .our_services{
-	color: #260801;
-}
-
-button{
-	background-color: #598391;
-}
-button:hover{
-	background-color: #260801;
-}
 
 /* Images and Media
 –––––––––––––––––––––––––––––––––––––––––––––– */
