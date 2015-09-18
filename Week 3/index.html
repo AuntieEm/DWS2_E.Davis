@@ -69,12 +69,163 @@ ____________________________________________________________________ -->
 
 <!-- Main content
 ____________________________________________________________________ -->
-		<div class="container main">
-	
+	<container ="main container">
+		<div class="row">
+			<div class="four columns">
+				<ul>
+					<button><li><a href="#">Vacation Pet Sitting</a></li></button>
+					<li></li>
+			</div>
+			<div class="eight columns">
+			<h2>Reservation and Price Estimate Request</h2>
+				<div class="four columns">
+				<h3>Client Information</h3>
+				<form>
+					<label for="name">Your Name:</label>
+					<input class="u-full-width" autofocus type="name" placeholder="Jane Doe" id="name" required>
+					<label for="address">Street Address / Apt#:</label>
+					<input class="u-full-width" type="address" placeholder="1234 Random Road" required>
+					<label for="city">City:</label>
+					<select class="u-full-width" id="city" required>
+						<option value="Option 1">Select one</option>
+						<option value="Option 2">Addison</option>
+						<option value="Option 3">Argyle</option>
+						<option value="Option 4">Arlington</option>
+						<option value="Option 5">Bedford</option>
+						<option value="Option 6">Colleyville</option>
+						<option value="Option 7">Coppell</option>
+						<option value="Option 8">Corinth</option>
+						<option value="Option 9">Dallas</option>
+						<option value="Option 10">Denton</option>
+						<option value="Option 11">Euless</option>
+						<option value="Option 12">Farmers Branch</option>
+						<option value="Option 13">Flower Mound</option>
+						<option value="Option 14">Fort Worth</option>
+						<option value="Option 15">Frisco</option>
+						<option value="Option 16">Garland</option>
+						<option value="Option 17">Grand Prairie</option>
+						<option value="Option 18">Grapevine</option>
+						<option value="Option 19">Haltom City</option>
+						<option value="Option 20">Haslet</option>
+						<option value="Option 21">Highland Park</option>
+						<option value="Option 22">Highland Village</option>
+						<option value="Option 23">Hurst</option>
+						<option value="Option 24">Irving</option>
+						<option value="Option 25">Justin</option>
+						<option value="Option 26">Keller</option>
+						<option value="Option 27">Lake Dallas</option>
+						<option value="Option 28">Las Colinas</option>
+						<option value="Option 29">Lewisville</option>
+						<option value="Option 30">Mansfield</option>
+						<option value="Option 31">Mesquite</option>
+						<option value="Option 32">North Arlington</option>
+						<option value="Option 33">North Richland Hills</option>
+						<option value="Option 34">Northlake</option>
+						<option value="Option 35">Plano</option>
+						<option value="Option 36">Richardson</option>
+						<option value="Option 37">Roanoke</option>
+						<option value="Option 38">Southlake</option>
+						<option value="Option 39">The Colony</option>
+						<option value="Option 40">Trophy Club</option>
+						<option value="Option 41">Watagua</option>
+						<option value="Option 42">Westlake</option>
+					</select>
+					<label for="state">State:</label>
+					<input class="u-full-width" type="state" placeholder="Texas" required>
+					<label for="zipcode">Zip Code:</label>
+					<input class="u-full-width" type="zipcode" placeholder="00000" required>
+					<label for="phone">Phone Number:</label>
+					<input class="u-full-width" type="email" placeholder="user@mailbox.com" required>
+					<label for="client">New or Existing Client?</label>
+					<select class="u-full-width" id="client" required>
+						<option value="Option 1">Select One</option>
+						<option value="Option 2">New</option>
+						<option value="Option 3">Existing</option>
+					</select>
+				</form>
+				<h3>Pet Information</h3>
+				<form>
+					<label for="pets">Number of Pets in Household:</label>
+					<input class="u-full-width" type="pets" required>
+					<select id="dogs" required>
+						<option value="Option 1">Dogs</option>
+						<option vlaue="Option 2">1 dog</option>
+						<option vlaue="Option 3">2 dogs</option>
+						<option value="Option 4">3 dogs</option>
+						<option value="Option 5">4 dogs</option>
+						<option value="Option 6">5 dogs</option>
+						<option value="Option 7">More than 5 dogs</option>
+					</select>
+					<select id="cats" required>
+						<option value="Option 1">Cats</option>
+						<option vlaue="Option 2">1 cat</option>
+						<option vlaue="Option 3">2 cats</option>
+						<option value="Option 4">3 cats</option>
+						<option value="Option 5">4 cats</option>
+						<option value="Option 6">5 cats</option>
+						<option value="Option 7">More than 5 cats</option>
+					</select>
+					<select id="horses" required>
+						<option value="Option 1">Horses</option>
+						<option vlaue="Option 2">1 horse</option>
+						<option vlaue="Option 3">2 horses</option>
+						<option value="Option 4">3 horses</option>
+						<option value="Option 5">4 horses</option>
+						<option value="Option 6">5 horses</option>
+						<option value="Option 7">More than 5 horses</option>
+					</select>
+					<select id="birds" required>
+						<option value="Option 1">Birds</option>
+						<option vlaue="Option 2">1 bird</option>
+						<option vlaue="Option 3">2 birds</option>
+						<option value="Option 4">3 birds</option>
+						<option value="Option 5">4 birds</option>
+						<option value="Option 6">5 birds</option>
+						<option value="Option 7">More than 5 birds</option>
+					</select>
+					<label class="fish">
+						<input type="checkbox">
+						<span class="label-body">Fish</span>
+					</label>
+					<label class="reptiles">
+						<input type="checkbox">
+						<span class="label-body">Reptile(s)</span>
+					</label>
+					<label class="hamsters">
+						<input type="checkbox">
+						<span class="label-body">Hamster(s)</span>
+					</label>
+					<label class="guineaPigs">
+						<input type="checkbox">
+						<span class="label-body">Guinea Pig(s)</span>
+					</label>
+					<label class="ferrets">
+						<input type="checkbox">
+						<span class="label-body">Ferret(s)</span>
+					</label>
+					<label class="hedgehogs">
+						<input type="checkbox">
+						<span class="label-body">Hedgehog(s)</span>
+					</label>
+					<label class="rabbits">
+						<input type="checkbox">
+						<span class="label-body">Rabbit(s)</span>
+					</label>
+					<label class="other">
+						<input type="checkbox">
+						<span class="label-body">Other</span>
+					</label>
+					<label for="notes">Additional requests:</label>
+					<textarea class="u-full-width" placeholder="Type here..." id="notes"></textarea>
+				</form>
+			</div><!-- end of form -->
 			
-			
-		</div> <!-- end container main -->
 
+		</div>
+	</div>
+		
+					
+	</container>
 
 	<footer>
 		<div class="container">
