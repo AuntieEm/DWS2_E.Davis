@@ -9,81 +9,116 @@ media query to use toggle navigation only when screen is certain size.
 <!DOCTYPE html>
 <html>
 <head lang="en">
+<!-- Basic Page Needs
+______________________________________________________________________ -->
     <meta charset="UTF-8">
     <title>Auntie Em's Pet Sitting Service</title>
+    <meta name="description" content="Home Page for Auntie Em's Pet Sitting Service">
+    <meta name-"author" content="Emily Davis">
+    
+<!-- Mobile Specific Metas
+______________________________________________________________________ -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/styles.css" rel="stylesheet">
+    
+<!-- Fonts
+______________________________________________________________________ -->
+	<link href='https://fonts.googleapis.com/css?family=Alice' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+    
+<!-- CSS
+______________________________________________________________________ -->
+    	<link href="css/styles.css" rel="stylesheet">
+    	<!--<link href="css/bootstrap/bootstrap-theme.css" rel="stylesheet">-->
+    	<!--<link href="css/bootstrap/bootstrap.css" rel="stylesheet">-->
+    	<link href="fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
+    	<!--<link href="css/magnific-popup.css" rel="stylesheet">
+    	<link href="css/skeleton.css" rel="stylesheet">-->
+    	<!--<link href="css/normalize.css" rel="stylesheet">-->
+    
+<!-- Scripts
+______________________________________________________________________ -->
     <script src="js/script.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Favicon
+______________________________________________________________________ -->
+	<link rel="icon" type="image/png" href="images/logos/logo_00.png">
 </head>
 
 <header>
 	<div class="container">
-		<!-- row 1: Top Navigation -->
+<!-- Main Navigation
+______________________________________________________________________ -->
 		<div class="row">
 			<div class="logo">
 				<a href="html/index.html"><img src="images/logos/logo_04.png" alt="Auntie Em's Pet Sitting Service. Click for home." class="img-responsive"></a>
 			</div> <!-- close logo -->
 		</div> <!-- close logo row -->
 		<div class="row">
-			<nav class="navbar top">
-				<ul>
-					<li class="active"><a href="index.html">Home</a></li>
-					<li class="dropdown"><a href="html/areas/areas.html" data-toggle="dropdown">Areas of Service<span class="caret"></span></a></li>
-						<ul class="dropdown-menu">
-							<li><a href="html/areas/zone1.html">Zone 1</a></li>
-							<li><a href="html/areas/zone2.html">Zone 2</a></li>
-							<li><a href="html/areas/zone3.html">Zone 3</a></li>
-							<li><a href="html/areas/zone4.html">Zone 4</a></li>
-							<li><a href="html/areas/zone5.html">Zone 5</a></li>
-							<li><a href="html/areas/zone6.html">Zone 6</a></li>
-						</ul> <!-- close areas dropdown menu -->
-					<li class="dropdown"><a href="html/calendar/calendar.html">Calendar<span class="caret"></span></a></li>
-						<ul class="dropdown-menu">
-							<li><a href="html/calendar/october2015.html">October 2015</a></li>
-							<li><a href="html/calendar/november2015.html">November 2015</a></li>
-							<li><a href="html/calendar/december2015">December 2015</a></li>
-						</ul> <!-- close calendar dropdown menu -->
-					<li class="dropdown"><a href="html/rates/rates.html">Rates and Services<span class="caret"></span></a></li>
-						<ul class="dropdown-menu">
-							<li><a href="html/rates/vacation.html">Vacation Pet Sitting</a></li>
-							<li><a href="html/rates/work.html">Work Day Dog Vistis</a></li>
-							<li><a href="html/rates/full-service.html">Full Service Pet Sitting</a></li>
-							<li><a href="html/rates/over-night.html">Over Night Stays in Your Home</a></li>
-							<li><a href="html/rates/critter.html">Little Critter Care</a></li>
-							<li><a href="html/rates/horse.html">Horse Care</a></li>
-							<li><a href="html/rates/taxi.html">Pet Taxi</a></li>
-							<li><a href="html/rates/house.html">House Sitting</a></li>
-							<li><a href="html/rates/programs.html">Discounts and Programs</a></li>
-							<li><a href="html/rates/policies.html">Policies and Procedures</a></li>
-						</ul> <!-- close rates dropdown menu -->
-					<li><a href="html/requests/requests.html">Request A Quote</a></li>
-					<li><a href="html/testimonials/testimonials.html">Testimonials</a></li>
-				</ul>
-			</nav><!--close navbar-->
+			<nav class="navbar navbar-default navbar-fixed-top">
+	            	<div class="collapse navbar-collapse" id="collapse">
+	               	<ul class="nav navbar-nav">
+	                   		<li class="active" title="Home"><a href="index.html"><i class="fa fa-home"> Home</i></a></li>
+						<li title="Areas of Service"><a href="html/areas/areas.html"><i  class="fa fa-map"> Areas of Service</i></a></li>
+						<li title="Calendar"><a href="html/calendar/calendar.html"><i class="fa fa-calendar"> Calendar</i></a></li>
+						<li title="Rates and Services"><a href="html/rates/rates.html"><i class="fa fa-money"> Rates and Services</i></a></li>
+						<li title="Request A Quote"><a href="html/requests/requests.html"><i class="fa fa-question-circle"> Request A Quote</i></a></li>
+						<li title="Testimonials"><a href="html/testimonials/testimonials.html"><i class="fa fa-comments"> Testimonials</i></a></li>		                
+					</ul>
+	            	</div>		
+        		</nav>	
 		</div> <!-- close nav row -->
 	</div> <!-- close header container -->
 </header> <!-- close header -->
 
 <body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	<div class="container">
+		<div class="row">
+			<div class="three columns">
+				<div class="side-nav">
+					<ul>
+						<li><h3>Our Services</h3></li>
+						<li class="active" title="Vacation Pet Sitting"><a href="html/rates/vacation.html"><i class="fa fa-plane"> Vacation Pet Sitting</i></a></li>
+						<li title="Work Day Dog Visits"><a href="html/rates/work.html"><i class="fa fa-briefcase"> Work Day Dog Visits</i></a></li>
+						<li title="Full Service Pet Sitting"><a href="html/rates/full-service.html"><i class="fa fa-cogs"> Full Service Pet Sitting</i></a></li>
+						<li title="Over Night Stays in Your Home"><a href="html/rates/over-night.html"><i class="fa fa-bed"> Over Night Stays in Your Home</i></a></li>
+						<li title="Little Critter Care"><a href="html/rates/critter.html"><i class="fa fa-paw"> Little Critter Care</i></a></li>
+						<li title="Horse Care"><a href="html/rates/horse.html"><i class="fa fa-magnet"> Horse Care</i></a></li>
+						<li title="Pet Taxi"><a href="html/rates/taxi.html"><i class="fa fa-cab"> Pet Taxi</i></a></li>
+						<li title="House Sitting"><a href="html/rates/house.html"><i class="fa fa-map-marker"> House Sitting</i></a></li>
+						<li title="Discounts and Programs"><a href="html/rates/programs.html"><i class="fa fa-ticket"> Discounts and Programs</i></a></li>
+						<li title="Policies and Procedures"><a href="html/rates/policies.html"><i class="fa fa-gavel"> Policies and Procedures</i></a></li>
+					</ul>
+				</div> <!-- close side nav -->
+				
+				<div class="social">
+					<ul class="social">
+						<li class="facebook" title="Facebook"><a href="#"><i class="fa fa-facebook-square fa-lg"></i></a></li>
+						<li class="twitter" title="Twitter"><a href="#"><i class="fa fa-twitter-square fa-lg"></i></a></li>
+						<li class="instagram" title="Instagram"><a href="#"><i class="fa fa-instagram fa-lg"></i></a></li>
+						<li class="flickr" title="Flickr"><a href="#"><i class="fa fa-flickr fa-lg"></i></a></li>
+						<li class="youtube" title="You Tube"><a href="#"><i class="fa fa-youtube-square fa-lg"></i></a></li>
+						<li class="linkedin" title="LinkedIn"><a href="#"><i class="fa fa-linkedin-square fa-lg"></i></a></li>
+					</ul>
+				</div> <!-- close social -->
+			</div><!-- close side nav -->
+			<div class="nine columns">
+				<div class="row">
+					<ol class="breadcrumb">
+						<li><a href="index.html">Home </a><i class="fa fa-arrow-circle-right"></i></li>
+					</ol><!-- close breadcrumbs -->
+				</div><!--close row-->
+				<h1>Welcome to Auntie Em's Pet Sitting Service!</h1>
+			
+			
+			</div> <!-- close nine columns -->
+					</div> <!-- close row -->
+		<div class="row">
+		
+		</div><!-- closes row-->
+	
+	
+	
+	
+	</div> <!-- closes body container -->
 </body>
 </html>

@@ -1,0 +1,75 @@
+/* this is my custom CSS */
+body {
+    padding-top: 70px;
+}
+
+
+footer{
+    padding: 2em 0;
+    margin: 3em 0;
+    border-top: 1px solid #EBEDF2;
+    color: #D9CDB8;
+    text-align: center;
+}
+
+
+.glyphicon {
+    color: #260801;
+}
+
+.pull-right.img-responsive{
+    margin: 0 0 1em 1em;
+}
+
+.btn-info{
+    background-color: #734E39;
+    border-color: #260801;
+    color: #EBEDF2;
+}
+
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active,
+.btn-info.active,
+.open .dropdown-toggle.btn-info {
+    color: #EBEDF2;
+    background-color: #3F2B22;
+    border-color: #333;
+}
+
+.breadcrumb > li + li:before {
+    padding: 0 5px;
+    color: #598391;
+    content: none;
+}
+
+
+.breadcrumb > li + li:before {
+    content: none;
+}
+
+.navbar .navbar-toggle {
+    color: #598391;
+    font-weight: bold;
+    border-color: #598391;
+}
+.navbar .navbar-toggle:hover {
+    background-color: #D9CDB8;
+    color: #598391;
+}
+.navbar .navbar-toggle .glyphicon {
+    color: #598391;
+}
+.navbar .navbar-toggle:hover .glyphicon {
+    color: #598391;
+}
+
+.tab-pane {
+    border-left: 1px solid #EBEDF2;
+    border-right: 1px solid #EBEDF2;
+    border-bottom: 1px solid #EBEDF2;
+    padding: 0.8em;
+}
+.active .glyphicon {
+    color: #734E39;
+}
