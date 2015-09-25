@@ -224,54 +224,11 @@ nav {
 
 /* Transition & Transform
 –––––––––––––––––––––––––––––––––––––––––––––– */
-.te-perspective {
-		-webkit-perspective: 1000;
-	}
-	@-webkit-keyframes goBig {
-		0% { opacity: 1; }
-		100% {opacity: 0;
-			-webkit-transform: scale3d(5,5,5);
-		}
-	}
-	.te-front {
-		-webkit-animation: goBig .4s ease-in-out;
-		-webkit-backface-visibility: hidden;
-	}
-	.te-back {
-		-webkit-transform-style: perserve-3d;
-		z-index: 1;
-	}
-	.te-container {
-		width: 360px;
-		margin: 0px auto:
-		position: relative;
-		padding-bottom:
-		text-align: center;
-	}
-	.te-controls {
-		height: 40px;
-		position: relative;
-	}
-	.te-container select, a.te-next {
-		display: inline-block;
-		border: 1px solid #999;
-		padding: 5px 20px 5px 5px;
-		font-size: 15px;
-		color: #444;
-		line-height: 18px;
-		background: white;
-		cursor: pointer;
-		-webkit-box-shadow: 1px 1px 1px rgba(255,255,255,0.8);
-		text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
-		-webkit-border-radius: 5px;
-		font-family: “Palatino Linotype”, “Palitino LT STD”, Georgia, serif;
-	}
-
 
 
 /* Images & Media
 –––––––––––––––––––––––––––––––––––––––––––––– */
-.img-responsive{
+.img.responsive{
 	max-width: 100%;
 	height: auto;
 }
@@ -299,7 +256,10 @@ ul.social li.youtube a:hover{color: rgb(187,0,0);}
 ul.social li.flickr a:hover{color: rgb(255,0, 132);}
 ul.social li.linkedin a:hover{color: rgb(0, 123,182);}
 
-
+.two.columns img{
+	width: 100%;
+	height: auto;
+}
 
 
 /* Footer

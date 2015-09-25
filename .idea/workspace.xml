@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b94d5df-dd5c-4a83-9278-e97be9f7418e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week 4/requests.html" afterPath="$PROJECT_DIR$/Week 4/requests.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Week 4/html/rates/critter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Week 4/html/rates/horse.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Week 4/html/rates/taxi.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week 4/index.html" afterPath="$PROJECT_DIR$/Week 4/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week 4/rates.html" afterPath="$PROJECT_DIR$/Week 4/rates.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week 4/css/styles.css" afterPath="$PROJECT_DIR$/Week 4/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week 4/testimonials.html" afterPath="$PROJECT_DIR$/Week 4/testimonials.html" />
     </list>
     <ignored path="DWS2_E.Davis.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +35,7 @@
       <file leaf-file-name="work.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week 4/html/rates/work.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="225">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -39,7 +45,7 @@
       <file leaf-file-name="full-service.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week 4/html/rates/full-service.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="225">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -49,7 +55,7 @@
       <file leaf-file-name="over-night.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week 4/html/rates/over-night.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="225">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -59,7 +65,7 @@
       <file leaf-file-name="house.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week 4/html/rates/house.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="225">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -69,8 +75,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week 4/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.166667" vertical-offset="1673" max-vertical-offset="2385">
-              <caret line="131" column="51" selection-start-line="131" selection-start-column="51" selection-end-line="131" selection-end-column="51" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1965" max-vertical-offset="2415">
+              <caret line="131" column="39" selection-start-line="131" selection-start-column="39" selection-end-line="131" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -79,29 +85,9 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week 4/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3886" max-vertical-offset="4665">
+            <state vertical-scroll-proportion="0.0" vertical-offset="4440" max-vertical-offset="4890">
               <caret line="296" column="0" selection-start-line="296" selection-start-column="0" selection-end-line="296" selection-end-column="0" />
-              <folding>
-                <marker date="1443088406000" expanded="true" signature="444:471" placeholder="{...}" />
-                <marker date="1443088406000" expanded="true" signature="635:786" placeholder="{...}" />
-                <marker date="1443088406000" expanded="true" signature="841:918" placeholder="{...}" />
-                <marker date="1443088406000" expanded="true" signature="971:974" placeholder="{...}" />
-                <marker date="1443088406000" expanded="true" signature="998:1014" placeholder="{...}" />
-                <marker date="1443088406000" expanded="true" signature="1055:1069" placeholder="{...}" />
-                <marker date="1443088406000" expanded="true" signature="1109:1123" placeholder="{...}" />
-                <marker date="1443088406000" expanded="true" signature="1148:1164" placeholder="{...}" />
-                <marker date="1443088406000" expanded="true" signature="1203:1220" placeholder="{...}" />
-                <marker date="1443088406000" expanded="true" signature="1261:1275" placeholder="{...}" />
-                <marker date="1443088406000" expanded="true" signature="1381:1410" placeholder="{...}" />
-                <marker date="1443088406000" expanded="true" signature="1484:1486" placeholder="{...}" />
-                <marker date="1443088406000" expanded="true" signature="1620:1694" placeholder="{...}" />
-                <marker date="1443088406000" expanded="true" signature="1738:2067" placeholder="{...}" />
-                <marker date="1443088406000" expanded="true" signature="2086:2118" placeholder="{...}" />
-                <marker date="1443088406000" expanded="true" signature="2120:2150" placeholder="{...}" />
-                <marker date="1443088406000" expanded="true" signature="2153:2184" placeholder="{...}" />
-                <marker date="1443088406000" expanded="true" signature="2187:2219" placeholder="{...}" />
-                <marker date="1443088406000" expanded="true" signature="2266:2277" placeholder="{...}" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -109,7 +95,7 @@
       <file leaf-file-name="areas.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week 4/areas.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.083334" vertical-offset="1330" max-vertical-offset="2025">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1330" max-vertical-offset="2025">
               <caret line="116" column="47" selection-start-line="116" selection-start-column="47" selection-end-line="116" selection-end-column="47" />
               <folding />
             </state>
@@ -119,6 +105,16 @@
       <file leaf-file-name="evening.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week 4/html/rates/evening.html">
           <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="long-term.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week 4/html/rates/long-term.html">
+          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="225">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
@@ -126,10 +122,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="long-term.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Week 4/html/rates/long-term.html">
+      <file leaf-file-name="error.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Week 4/error.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="682">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -144,7 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Week 2/announcements.html" />
         <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/Week 2/home.html" />
         <option value="$PROJECT_DIR$/Week 2/about.html" />
@@ -195,6 +190,7 @@
         <option value="$PROJECT_DIR$/Week 4/areas.html" />
         <option value="$PROJECT_DIR$/Week 4/html/rates/evening.html" />
         <option value="$PROJECT_DIR$/Week 4/html/rates/long-term.html" />
+        <option value="$PROJECT_DIR$/Week 4/error.html" />
       </list>
     </option>
   </component>
@@ -230,7 +226,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -323,6 +318,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -348,10 +344,14 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <method />
     </configuration>
-    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -359,10 +359,6 @@
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="Chrome" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -446,11 +442,74 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Week 4/html/rates/full-service.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 4/html/rates/over-night.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 4/html/rates/house.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 4/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1965" max-vertical-offset="2415">
+          <caret line="131" column="39" selection-start-line="131" selection-start-column="39" selection-end-line="131" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 4/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4440" max-vertical-offset="4890">
+          <caret line="296" column="0" selection-start-line="296" selection-start-column="0" selection-end-line="296" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 4/areas.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1330" max-vertical-offset="2025">
+          <caret line="116" column="47" selection-start-line="116" selection-start-column="47" selection-end-line="116" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 4/html/rates/evening.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 4/html/rates/long-term.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Week 2/photo gallery.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2280">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -584,7 +643,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4731861" vertical-offset="1605" max-vertical-offset="2280">
           <caret line="127" column="18" selection-start-line="127" selection-start-column="18" selection-end-line="127" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -592,7 +650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="1350">
           <caret line="28" column="60" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -600,7 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.41489363" vertical-offset="492" max-vertical-offset="1215">
           <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -608,7 +664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="658">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -616,7 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -624,7 +678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -632,7 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -640,7 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -648,7 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -656,7 +706,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -664,7 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -672,7 +720,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -680,7 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -688,7 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -726,8 +771,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Week 4/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.166667" vertical-offset="1673" max-vertical-offset="2385">
-          <caret line="131" column="51" selection-start-line="131" selection-start-column="51" selection-end-line="131" selection-end-column="51" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1965" max-vertical-offset="2415">
+          <caret line="131" column="39" selection-start-line="131" selection-start-column="39" selection-end-line="131" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -736,33 +781,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3886" max-vertical-offset="4665">
           <caret line="296" column="0" selection-start-line="296" selection-start-column="0" selection-end-line="296" selection-end-column="0" />
-          <folding>
-            <marker date="1443088406000" expanded="true" signature="444:471" placeholder="{...}" />
-            <marker date="1443088406000" expanded="true" signature="635:786" placeholder="{...}" />
-            <marker date="1443088406000" expanded="true" signature="841:918" placeholder="{...}" />
-            <marker date="1443088406000" expanded="true" signature="971:974" placeholder="{...}" />
-            <marker date="1443088406000" expanded="true" signature="998:1014" placeholder="{...}" />
-            <marker date="1443088406000" expanded="true" signature="1055:1069" placeholder="{...}" />
-            <marker date="1443088406000" expanded="true" signature="1109:1123" placeholder="{...}" />
-            <marker date="1443088406000" expanded="true" signature="1148:1164" placeholder="{...}" />
-            <marker date="1443088406000" expanded="true" signature="1203:1220" placeholder="{...}" />
-            <marker date="1443088406000" expanded="true" signature="1261:1275" placeholder="{...}" />
-            <marker date="1443088406000" expanded="true" signature="1381:1410" placeholder="{...}" />
-            <marker date="1443088406000" expanded="true" signature="1484:1486" placeholder="{...}" />
-            <marker date="1443088406000" expanded="true" signature="1620:1694" placeholder="{...}" />
-            <marker date="1443088406000" expanded="true" signature="1738:2067" placeholder="{...}" />
-            <marker date="1443088406000" expanded="true" signature="2086:2118" placeholder="{...}" />
-            <marker date="1443088406000" expanded="true" signature="2120:2150" placeholder="{...}" />
-            <marker date="1443088406000" expanded="true" signature="2153:2184" placeholder="{...}" />
-            <marker date="1443088406000" expanded="true" signature="2187:2219" placeholder="{...}" />
-            <marker date="1443088406000" expanded="true" signature="2266:2277" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Week 4/areas.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.083334" vertical-offset="1330" max-vertical-offset="2025">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1330" max-vertical-offset="2025">
           <caret line="116" column="47" selection-start-line="116" selection-start-column="47" selection-end-line="116" selection-end-column="47" />
           <folding />
         </state>
@@ -779,6 +804,14 @@
     <entry file="file://$PROJECT_DIR$/Week 4/html/rates/long-term.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="704">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 4/error.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="706">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
