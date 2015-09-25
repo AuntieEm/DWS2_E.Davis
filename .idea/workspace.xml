@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b94d5df-dd5c-4a83-9278-e97be9f7418e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Week 4/html/areas/areas.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Week 4/html/calendar/calendar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Week 4/html/rates/rates.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week 4/index.html" afterPath="$PROJECT_DIR$/Week 4/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week 4/css/styles.css" afterPath="$PROJECT_DIR$/Week 4/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week 4/requests.html" afterPath="$PROJECT_DIR$/Week 4/requests.html" />
     </list>
     <ignored path="DWS2_E.Davis.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -83,18 +79,58 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week 4/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3481" max-vertical-offset="4260">
-              <caret line="269" column="0" selection-start-line="269" selection-start-column="0" selection-end-line="269" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="3886" max-vertical-offset="4665">
+              <caret line="296" column="0" selection-start-line="296" selection-start-column="0" selection-end-line="296" selection-end-column="0" />
+              <folding>
+                <marker date="1443088406000" expanded="true" signature="444:471" placeholder="{...}" />
+                <marker date="1443088406000" expanded="true" signature="635:786" placeholder="{...}" />
+                <marker date="1443088406000" expanded="true" signature="841:918" placeholder="{...}" />
+                <marker date="1443088406000" expanded="true" signature="971:974" placeholder="{...}" />
+                <marker date="1443088406000" expanded="true" signature="998:1014" placeholder="{...}" />
+                <marker date="1443088406000" expanded="true" signature="1055:1069" placeholder="{...}" />
+                <marker date="1443088406000" expanded="true" signature="1109:1123" placeholder="{...}" />
+                <marker date="1443088406000" expanded="true" signature="1148:1164" placeholder="{...}" />
+                <marker date="1443088406000" expanded="true" signature="1203:1220" placeholder="{...}" />
+                <marker date="1443088406000" expanded="true" signature="1261:1275" placeholder="{...}" />
+                <marker date="1443088406000" expanded="true" signature="1381:1410" placeholder="{...}" />
+                <marker date="1443088406000" expanded="true" signature="1484:1486" placeholder="{...}" />
+                <marker date="1443088406000" expanded="true" signature="1620:1694" placeholder="{...}" />
+                <marker date="1443088406000" expanded="true" signature="1738:2067" placeholder="{...}" />
+                <marker date="1443088406000" expanded="true" signature="2086:2118" placeholder="{...}" />
+                <marker date="1443088406000" expanded="true" signature="2120:2150" placeholder="{...}" />
+                <marker date="1443088406000" expanded="true" signature="2153:2184" placeholder="{...}" />
+                <marker date="1443088406000" expanded="true" signature="2187:2219" placeholder="{...}" />
+                <marker date="1443088406000" expanded="true" signature="2266:2277" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="areas.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week 4/areas.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-17.083334" vertical-offset="1330" max-vertical-offset="2025">
+              <caret line="116" column="47" selection-start-line="116" selection-start-column="47" selection-end-line="116" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="areas.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Week 4/areas.html">
+      <file leaf-file-name="evening.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week 4/html/rates/evening.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.60294116" vertical-offset="1285" max-vertical-offset="1980">
-              <caret line="113" column="47" selection-start-line="113" selection-start-column="47" selection-end-line="113" selection-end-column="47" />
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="225">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="long-term.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Week 4/html/rates/long-term.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -108,8 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/styles.css" />
-        <option value="$PROJECT_DIR$/css/home.html" />
         <option value="$PROJECT_DIR$/Week 2/announcements.html" />
         <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/Week 2/home.html" />
@@ -159,6 +193,8 @@
         <option value="$PROJECT_DIR$/Week 4/index.html" />
         <option value="$PROJECT_DIR$/Week 4/css/styles.css" />
         <option value="$PROJECT_DIR$/Week 4/areas.html" />
+        <option value="$PROJECT_DIR$/Week 4/html/rates/evening.html" />
+        <option value="$PROJECT_DIR$/Week 4/html/rates/long-term.html" />
       </list>
     </option>
   </component>
@@ -232,6 +268,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DWS2_E.Davis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DWS2_E.Davis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Week 4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -344,7 +402,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="436" y="23" width="2123" height="850" extended-state="1" />
+    <frame x="436" y="23" width="2123" height="850" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -554,22 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week 4/html/requests/requests.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week 4/html/testimonials/testimonials.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week 4/html/areas/zone1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
@@ -692,16 +734,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Week 4/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3481" max-vertical-offset="4260">
-          <caret line="269" column="0" selection-start-line="269" selection-start-column="0" selection-end-line="269" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="3886" max-vertical-offset="4665">
+          <caret line="296" column="0" selection-start-line="296" selection-start-column="0" selection-end-line="296" selection-end-column="0" />
+          <folding>
+            <marker date="1443088406000" expanded="true" signature="444:471" placeholder="{...}" />
+            <marker date="1443088406000" expanded="true" signature="635:786" placeholder="{...}" />
+            <marker date="1443088406000" expanded="true" signature="841:918" placeholder="{...}" />
+            <marker date="1443088406000" expanded="true" signature="971:974" placeholder="{...}" />
+            <marker date="1443088406000" expanded="true" signature="998:1014" placeholder="{...}" />
+            <marker date="1443088406000" expanded="true" signature="1055:1069" placeholder="{...}" />
+            <marker date="1443088406000" expanded="true" signature="1109:1123" placeholder="{...}" />
+            <marker date="1443088406000" expanded="true" signature="1148:1164" placeholder="{...}" />
+            <marker date="1443088406000" expanded="true" signature="1203:1220" placeholder="{...}" />
+            <marker date="1443088406000" expanded="true" signature="1261:1275" placeholder="{...}" />
+            <marker date="1443088406000" expanded="true" signature="1381:1410" placeholder="{...}" />
+            <marker date="1443088406000" expanded="true" signature="1484:1486" placeholder="{...}" />
+            <marker date="1443088406000" expanded="true" signature="1620:1694" placeholder="{...}" />
+            <marker date="1443088406000" expanded="true" signature="1738:2067" placeholder="{...}" />
+            <marker date="1443088406000" expanded="true" signature="2086:2118" placeholder="{...}" />
+            <marker date="1443088406000" expanded="true" signature="2120:2150" placeholder="{...}" />
+            <marker date="1443088406000" expanded="true" signature="2153:2184" placeholder="{...}" />
+            <marker date="1443088406000" expanded="true" signature="2187:2219" placeholder="{...}" />
+            <marker date="1443088406000" expanded="true" signature="2266:2277" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Week 4/areas.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60294116" vertical-offset="1285" max-vertical-offset="1980">
-          <caret line="113" column="47" selection-start-line="113" selection-start-column="47" selection-end-line="113" selection-end-column="47" />
+        <state vertical-scroll-proportion="-17.083334" vertical-offset="1330" max-vertical-offset="2025">
+          <caret line="116" column="47" selection-start-line="116" selection-start-column="47" selection-end-line="116" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 4/html/rates/evening.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="704">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 4/html/rates/long-term.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="704">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

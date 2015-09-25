@@ -31,6 +31,15 @@ ______________________________________________________________________ -->
 ______________________________________________________________________ -->
     <script src="js/script.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>
+    		function sendEmail() {
+    			var str = "name:  " + document.forms.request-form.firstName.value + "\n" + "email:  " + document.forms.request-form.email.value + "\n" + "phone:  " + document.forms.request-form.phone.value;
+    			var link = document.getElemetByID("mylink");
+    			link.href = "/mailto:emilya@auntieemsinc.com?subject = form price&estimage&request =" + str;
+    			clickLink(link);
+    				return false;
+    		}
+    </script>
 <!-- Favicon
 ______________________________________________________________________ -->
 	<link rel="icon" type="image/png" href="images/logos/logo_00.png">
@@ -54,7 +63,7 @@ ______________________________________________________________________ -->
                     <nav class="navbar">
                         <ul class="nav navbar-nav">
                             <li title="Home"><a href="index.html"><i class="fa fa-home"> Home</i></a></li>
-                            <li title="Areas of Service"><a href="areas.html"><i class="fa fa-map"> Areas of Service</i></a></li>
+                            <li title="Areas of Service"><a href="areas.html"><i class="fa fa-arrows-alt"> Areas of Service</i></a></li>
                             <li title="Calendar"><a href="calendar.html"><i class="fa fa-calendar"> Calendar</i></a></li>
                             <li title="Rates and Services"><a href="rates.html"><i class="fa fa-money"> Rates and Services</i></a></li>
                             <li class="active" title="Request A Quote"><a href="requests.html"><i class="fa fa-question-circle"> Request A Quote</i></a></li>
@@ -87,8 +96,10 @@ ______________________________________________________________________ -->
                                 <li title="Little Critter Care"><a href="html/rates/critter.html"><i class="fa fa-paw"> Little Critter Care</i></a></li>
                                 <li title="Horse Care"><a href="html/rates/horse.html"><i class="fa fa-magnet"> Horse Care</i></a></li>
                                 <li title="Pet Taxi"><a href="html/rates/taxi.html"><i class="fa fa-cab"> Pet Taxi</i></a></li>
+                                <li title="Evening Sit"><a href="html/rates/evening.html"><i class="fa fa-star"> Evening Sit</i></a></li>
+                                <li title="Long Term"><a href="html/rates/long-term.html"><i class="fa fa-long-arrow-right"> Long Term</i></a></li>
                                 <li title="Discounts and Programs"><a href="html/rates/programs.html"><i class="fa fa-ticket"> Discounts and Programs</i></a></li>
-                                <li title="Policies and Procedures"><a href="html/rates/policies.html"><i class="fa fa-gavel"> Policies and Procedures</i></a></li>
+                                <li title="Policies and Procedures"><a href="html/rates/policies.html"><i class="fa fa-gavel"> Policies and Procedures</i></a><li>
                             </ul><!--closes unordered list-->
                         </div> <!-- close side nav -->
 
@@ -116,6 +127,238 @@ ______________________________________________________________________ -->
                         </ol>
                     </div><!--close breadcrumb row-->
                     <div class="row">
+                    	<h2>Reservation and Price Estimate Request</h2>
+                    	<p>Please fill out the form below and submit it. I will email you with a price estimate within 48 hours. If your matter is urgent, please call me.</p>
+                    	<div class="request-form">
+                    		
+                    		<form>
+                    			<fieldset>
+		                    		<legend>Client Information</legend>
+		                    			<p><label for="client">New or Existing Client?</label>
+					                        <select id="client">
+					                            <option value="Option 1">Select One</option>
+					                            <option value="Option 2">New</option>
+					                            <option value="Option 3">Existing</option>
+					                        </select></p>
+		                    			<p><label for="firstName">First Name:</label>
+		                    					<input class="u-full-width" autofocus type="text" placeholder="Jane" id="firstName" required>
+		                    				<label for="lastName">First Name:</label>
+		                    					<input class="u-full-width" type="text" placeholder="Doe" id="lastName" required>
+
+		                    			</p>
+					                        
+		                    			<p><label class="address">Street Address / Apt#:</label>
+							    			<input class="u-full-width" type="text" placeholder="1234 Random Road" required></p>
+							    		<p><label for="city">City:</label>
+					                        <select  id="city">
+					                            <option value="Option 1">Select one</option>
+					                            <option value="Option 2">Addison</option>
+					                            <option value="Option 3">Argyle</option>
+					                            <option value="Option 4">Arlington</option>
+					                            <option value="Option 5">Bedford</option>
+					                            <option value="Option 6">Colleyville</option>
+					                            <option value="Option 7">Coppell</option>
+					                            <option value="Option 8">Corinth</option>
+					                            <option value="Option 9">Dallas</option>
+					                            <option value="Option 10">Denton</option>
+					                            <option value="Option 11">Euless</option>
+					                            <option value="Option 12">Farmers Branch</option>
+					                            <option value="Option 13">Flower Mound</option>
+					                            <option value="Option 14">Fort Worth</option>
+					                            <option value="Option 15">Frisco</option>
+					                            <option value="Option 16">Garland</option>
+					                            <option value="Option 17">Grand Prairie</option>
+					                            <option value="Option 18">Grapevine</option>
+					                            <option value="Option 19">Haltom City</option>
+					                            <option value="Option 20">Haslet</option>
+					                            <option value="Option 21">Highland Park</option>
+					                            <option value="Option 22">Highland Village</option>
+					                            <option value="Option 23">Hurst</option>
+					                            <option value="Option 24">Irving</option>
+					                            <option value="Option 25">Justin</option>
+					                            <option value="Option 26">Keller</option>
+					                            <option value="Option 27">Lake Dallas</option>
+					                            <option value="Option 28">Las Colinas</option>
+					                            <option value="Option 29">Lewisville</option>
+					                            <option value="Option 30">Mansfield</option>
+					                            <option value="Option 31">Mesquite</option>
+					                            <option value="Option 32">North Arlington</option>
+					                            <option value="Option 33">North Richland Hills</option>
+					                            <option value="Option 34">Northlake</option>
+					                            <option value="Option 35">Plano</option>
+					                            <option value="Option 36">Richardson</option>
+					                            <option value="Option 37">Roanoke</option>
+					                            <option value="Option 38">Southlake</option>
+					                            <option value="Option 39">The Colony</option>
+					                            <option value="Option 40">Trophy Club</option>
+					                            <option value="Option 41">Watagua</option>
+					                            <option value="Option 42">Westlake</option>
+					                        </select>
+									<label class="state">State:</label>
+									    <input type="text" placeholder="Texas" required>
+									<label class="zipcode">Zip Code:</label>
+									    <input type="text" placeholder="00000" required></p>
+									    
+									<p><label class="phone">Phone Number:</label>
+										<input type="number" placeholder="555-555-5555" required>
+									<label class="email">Email address:</label>
+										<input type="email" placeholder="user@mailbox.com" required></p>
+										
+									<p><label class="prefer">Which do you prefer?</label></p>
+										<p>
+											<input type="checkbox">
+											<span class="label-body">  Call</span>
+					                     		<input type="checkbox">
+					                     		<span class="label-body">Text</span>
+					                     		<input type="checkbox">
+					                     		<span class="label-body"> Email</span>
+					                     		
+										</p>
+										
+									
+					                     <p><label for="service">Type of service you require: </label>
+					                     	<select id="service">
+					                     		<option value="Option 1">Select One</option>
+					                     		<option value="Option 2">Vacation Pet Sitting</option>
+					                     		<option value="Option 3">Full Service Pet Sitting</option>
+					                     		<option value="Option 4">Over Night Stay in Your Home</option>
+					                     		<option value="Option 5">House Sitting</option>
+					                     		<option value="Option 6">Evening Sit</option>
+					                     	</select></p>
+				                     	<p><label class="pet-taxi">Please Select any other services you will need:</label></p>
+					                     	<p><input type="checkbox">
+					                     	<span class="label-body">Pet Taxi</span>
+					                     	<input type="checkbox">
+					                     	<span class="label-body">Long Term</span>
+					                     	<input type="checkbox">
+					                     	<span class="label-body">Dog Walks</span>
+					                     	<input type="checkbox">
+					                     	<span class="label-body">Skim Pool</span>
+					                     	<input type="checkbox">
+					                     	<span class="label-body">Water Plants</span></p>
+					                    
+					                     
+					                     <p><label for="days">Specify how many nights you will need service:</label>
+					                     	<select id="days">
+					                     		<option value="Option 1">Select one:</option>
+					                     		<option value="Option 2"> 1 night</option>
+					                     		<option value="Option 3"> 2 nights</option>
+					                     		<option value="Option 4"> 3 nights</option>
+					                     		<option value="Option 5"> 4 nights</option>
+					                     		<option value="Option 6"> 5 nights</option>
+					                     		<option value="Option 7"> 6 nights</option>
+					                     		<option value="Option 8"> 7 nights</option>
+					                     		<option value="Option 9"> 8 nights</option>
+					                     		<option value="Option 10"> 9 nights</option>
+					                     		<option value="Option 11"> 10 nights</option>
+					                     		<option value="Option 12"> 11 nights</option>
+					                     		<option value="Option 13"> 12 nights</option>
+					                     		<option value="Option 14"> 13 nights</option>
+					                     		<option value="Option 15"> 14 nights</option>
+					                     		<option value="Option 16"> 15 nights</option>
+					                     		<option value="Option 17"> 16 nights</option>
+					                     		<option value="Option 18"> 17 nights</option>
+					                     		<option value="Option 19"> 18 nights</option>
+					                     		<option value="Option 20"> 19 nights</option>
+					                     		<option value="Option 21"> 20 nights</option>
+					                     		<option value="Option 22"> 21 nights</option>
+					                     		<option value="Option 23"> 22 nights</option>
+					                     		<option value="Option 24"> 23 nights</option>
+					                     		<option value="Option 25"> 24 nights</option>
+					                     		<option value="Option 26"> 25 nights</option>
+					                     		<option value="Option 27"> 26 nights</option>
+					                     		<option value="Option 28"> 27 nights</option>
+					                     		<option value="Option 29"> 28 nights</option>
+					                     		<option value="Option 30"> more than 28 nights</option>
+					                     	</select>
+					                     	<label class="depart">Start Date:  </label>
+					                     		<input type="text" placeholder="dd/mm/yy" required>
+					                     	<label class="arrive">End Date:  </label>
+					                     		<input type="text" placeholder="dd/mm/yy" required></p>
+					                     	<p><label for="notes">Additional requests:</label>
+			                     				<textarea class="u-full-width" placeholder="Type here..." id="notes"></textarea></p>
+
+				                     </fieldset><!--closes client info fieldset-->
+				                     <fieldset>
+				                     	<legend>Pet Information</legend>
+				                     		<p>
+				                     			<label>How many pets will need care?</label>
+				                     		</p>
+				                     		<p>
+				                     			<select id="dogsU40">
+												<option value="Option 1">0 Dogs under 40lb</option>
+												<option value="Option 2">1 dog under 40lb</option>
+												<option value="Option 3">2 dogs under 40lb</option>
+												<option value="Option 4">3 dogs under 40lb</option>
+												<option value="Option 5">4 dogs under 40lb</option>
+												<option value="Option 6">5 dogs under 40lb</option>
+												<option value="Option 7">More than 5 dogs under 40lb</option>
+											</select>
+											<select id="dogsO40">
+												<option value="Option 1">0 Dogs over 40lb</option>
+												<option value="Option 2">1 dog over 40lb</option>
+												<option value="Option 3">2 dogs over 40lb</option>
+												<option value="Option 4">3 dogs over 40lb</option>
+												<option value="Option 5">4 dogs over 40lb</option>
+												<option value="Option 6">5 dogs over 40lb</option>
+												<option value="Option 7">More than 5 dogs over 40lb</option>
+											</select>
+											<select id="inCats">
+												<option value="Option 1">0 Indoor Cats</option>
+												<option value="Option 2">1 indoor cat</option>
+												<option value="Option 3">2 indoor cats</option>
+												<option value="Option 4">3 indoor cats</option>
+												<option value="Option 5">4 indoor indoor cats</option>
+												<option value="Option 6">5 cats</option>
+												<option value="Option 7">More than 5 indoor cats</option>
+											</select>
+											<select id="inOutCats">
+												<option value="Option 1">0 Indoor/Outdoor Cats</option>
+												<option value="Option 2">1 indoor/outdoor cat</option>
+												<option value="Option 3">2 indoor/outdoor cats</option>
+												<option value="Option 4">3 indoor/outdoor cats</option>
+												<option value="Option 5">4 indoor/outdoor cats</option>
+												<option value="Option 6">5 indoor/outdoor cats</option>
+												<option value="Option 7">More than 5 indoor/outdoor cats</option>
+											</select>
+											<select id="outCats">
+												<option value="Option 1">0 Outdoor Cats</option>
+												<option value="Option 2">1 outdoor cat</option>
+												<option value="Option 3">2 outdoor cats</option>
+												<option value="Option 4">3 outdoor cats</option>
+												<option value="Option 5">4 outdoor cats</option>
+												<option value="Option 6">5 outdoor cats</option>
+												<option value="Option 7">More than 5 outdoor cats</option>
+											</select>
+				                     		</p>
+				                     		<p>
+				                     			<label class="birds">Birds:</label>
+									    			<input type="text" placeholder="0" required>
+									    		
+									    		<label class="hedgehog">Hedgehogs:</label>
+									    			<input type="text" placeholder="0" required>
+									    		<label class="fish">Fish Tanks:</label>
+									    			<input type="text" placeholder="0" required>
+									    	</p>
+									    	<p>
+									    		<label class="horses">Horses:</label>
+									    			<input type="text" placeholder="0" required>
+									    			<textarea class="u-full-width" placeholder="What tasks need to be done?"></textarea>
+									    	</p>
+									    	<p>
+									    		<label class="reptiles">Reptiles:</label>
+									    			<input type="text" placeholder="0" required>
+									    			<textarea class="u-full-width" placeholder="Specify how many of each you have."></textarea>
+									    	</p>
+									    	<p>
+									    		<label class="rodents">Rodents:</label>
+									    			<input type="text" placeholder="0" required>
+									    			<textarea class="u-full-width" placeholder="Specify how many of each you have."></textarea>
+									    	</p>
+				                     </fieldset><!--closes pet info fieldset-->
+				                <button type="submit" onClick="sendEmail()">Submit Request</button>     			                     			              
+			              </form><!--closes form-->
+                    	</div><!--closes request form-->
                     	
                     	
                     	

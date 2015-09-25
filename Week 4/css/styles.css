@@ -22,6 +22,14 @@ body{
 .nine.columns{
 	float: right;
 }
+.u-full-width {
+  width: 100%;
+  box-sizing: border-box; }
+
+/* Make sure elements don't run outside containers (great for images in columns) */
+.u-max-full-width {
+  max-width: 100%;
+  box-sizing: border-box; }
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––– */
@@ -143,6 +151,10 @@ p#green{
 	list-style: none;
 	padding: .5em;
 }
+legend{
+	font-size: 1.5em;
+	font-family: 'Alice';
+}
 /* Header & Navigation
 –––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -210,7 +222,50 @@ nav {
   color: #777;
 }
 
-
+/* Transition & Transform
+–––––––––––––––––––––––––––––––––––––––––––––– */
+.te-perspective {
+		-webkit-perspective: 1000;
+	}
+	@-webkit-keyframes goBig {
+		0% { opacity: 1; }
+		100% {opacity: 0;
+			-webkit-transform: scale3d(5,5,5);
+		}
+	}
+	.te-front {
+		-webkit-animation: goBig .4s ease-in-out;
+		-webkit-backface-visibility: hidden;
+	}
+	.te-back {
+		-webkit-transform-style: perserve-3d;
+		z-index: 1;
+	}
+	.te-container {
+		width: 360px;
+		margin: 0px auto:
+		position: relative;
+		padding-bottom:
+		text-align: center;
+	}
+	.te-controls {
+		height: 40px;
+		position: relative;
+	}
+	.te-container select, a.te-next {
+		display: inline-block;
+		border: 1px solid #999;
+		padding: 5px 20px 5px 5px;
+		font-size: 15px;
+		color: #444;
+		line-height: 18px;
+		background: white;
+		cursor: pointer;
+		-webkit-box-shadow: 1px 1px 1px rgba(255,255,255,0.8);
+		text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
+		-webkit-border-radius: 5px;
+		font-family: “Palatino Linotype”, “Palitino LT STD”, Georgia, serif;
+	}
 
 
 
